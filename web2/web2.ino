@@ -5,8 +5,7 @@
  *
  * For more detail (instruction and wiring diagram), visit https://esp32io.com/tutorials/esp32-controls-servo-motor-via-web
  */
-
-#include <Servo.h>
+#include "ESP32_New_ISR_Servo.h"
 #include <WiFi.h>
 #include <ESPAsyncWebServer.h>
 #include <WebSocketsServer.h>
@@ -17,7 +16,7 @@
 Servo servo;
 
 const char* ssid = "Kori";     // CHANGE IT
-const char* password = "YOUR_WIFI_PASSWORD";  // CHANGE IT
+const char* password = "Kori@1234.";  // CHANGE IT
 
 AsyncWebServer server(80);
 WebSocketsServer webSocket = WebSocketsServer(81);  // WebSocket server on port 81
