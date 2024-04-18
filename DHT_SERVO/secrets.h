@@ -1,6 +1,6 @@
-#define SSID ""
-#define PASSWORD ""
-#define API_KEY ""
+#define SSID "Kori"
+#define PASSWORD "Kori@1234."
+#define API_KEY "xDiBhA5RcFgJapTHOr"
 
 /*
  * server auth CA certificate key

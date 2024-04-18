@@ -1,7 +1,17 @@
-
+/*
+* TEMPERATURE&HUMIDITY MONITORING------------------
+* USE DHT SENSOR:
+*    -> Measure room temperature and humidity values
+*    -> Send the recorded data to the platform
+*    -> Set temperature threshold from the platform
+*    -> Use set threshod and recorded data to control fan
+* ANGAZA ELIMU - SH. PROJECT V2.0 / 023
+* ----------------------------------------
+*/
+//---------------------Support libraries and sensor parameters.
 #include <DHT.h>
 #include <WiFi.h>
-//#include <HTTPClient.h>
+#include <HTTPClient.h>
 #include <Arduino_JSON.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
